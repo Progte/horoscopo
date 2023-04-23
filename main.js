@@ -66,13 +66,13 @@ function ObHor() {
 		img.style.visibility = 'visible';
 		document.getElementById("HorWriten").innerHTML = "No cree en Horóscopos";
 		document.getElementById("pronost").innerHTML = signZ[num];	
-		document.getElementById("imagen").src='img/regalo.jpg';	
+		document.getElementById("imagen").src="img/regalo.jpg";	
 	}
 	if (num ==13) {
 		img.style.visibility = 'visible';
 		document.getElementById("HorWriten").innerHTML = "No cree en Horóscopos";
 		document.getElementById("pronost").innerHTML = signZ[num];	
-		document.getElementById("imagen").src='img/pacora.jpeg';
+		document.getElementById("imagen").src="img/pacora.jpeg";
 	}
 	
 }
